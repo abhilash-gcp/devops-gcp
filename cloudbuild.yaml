@@ -3,4 +3,5 @@ steps:
   args: ["builds", "list"]
   dir: "devops-gcp"
 images:
-- 'gcr.io/gcp-tutorial-383308/gcloud'
+- 'gcr.io/gcp-tutorial-383308/gcloud:$COMMIT_SHA'
+timeout: 3600s
