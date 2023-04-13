@@ -1,2 +1,3 @@
-- name: gcr.io/cloud-builders/gcloud:latest
-  entrypoint: "ls"
+steps: 
+- name: 'gcr.io/cloud-builders/gcloud'
+  args: ['builds', 'list']
