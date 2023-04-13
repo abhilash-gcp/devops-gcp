@@ -1,4 +1,4 @@
 steps:
 - name: gcr.io/cloud-builders/gcloud
-  args: ["builds", "submit"]
+  args: ["builds"]
   dir: "devops-gcp"
