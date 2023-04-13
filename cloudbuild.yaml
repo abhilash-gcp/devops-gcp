@@ -1,1 +1,2 @@
-- name: gcr.io/cloud-builders/gcloud:latest
+- name: 'gcr.io/cloud-builders/gcloud'
+args: ['config','set','project','linux-gcp']
