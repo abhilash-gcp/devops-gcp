@@ -2,3 +2,5 @@ steps:
 - name: gcr.io/cloud-builders/gcloud
   args: ["builds", "submit"]
   dir: "devops-gcp"
+images:
+- 'gcr.io/gcp-tutorial-383308/gcloud'
