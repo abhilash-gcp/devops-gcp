@@ -1,3 +1,4 @@
-steps: 
-- name: 'gcr.io/cloud-builders/gcloud'
-  args: ['builds', 'list']
+steps:
+- name: gcr.io/cloud-builders/gcloud
+  args: ["builds", "submit"]
+  dir: "testing"   # I assume that the git clone has created the testing directory
