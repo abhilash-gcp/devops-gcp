@@ -1,7 +1,7 @@
 steps:
-- name: gcr.io/gcp-tutorial-383308/gcloud
+- name: gcr.io/cloud-builders/gcloud
   args: ["builds", "list"]
   dir: "devops-gcp"
 images:
-- 'gcr.io/gcp-tutorial-383308/gcloud'
-timeout: 3600s
+- 'gcr.io/cloud-builders/gcloud'
+timeout: 2400s
