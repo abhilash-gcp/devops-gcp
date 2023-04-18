@@ -1,6 +1,6 @@
 steps:
 - name: gcr.io/cloud-builders/gcloud
-  args: ["builds"]
+  args: ["run","deploy"]
   dir: "devops-gcp"
 images:
 - 'gcr.io/cloud-builders/gcloud'
